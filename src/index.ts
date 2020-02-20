@@ -5,13 +5,13 @@ import {CharactersCollection} from './CharactersCollection';
 
 
 
-const sorter = new Sorter(new NumbersCollection([-4, 2, 5,-10]))
+const sorter = new NumbersCollection([-4, 2, 5,-10]);
 sorter.sort()
-console.log(sorter.collection.data)
+console.log(sorter.data)
 
 
-const sorterTwo = new Sorter(new CharactersCollection('syabzh'));
+const sorterTwo = new CharactersCollection('syabzh');
 
 sorterTwo.sort();
 
-console.log(sorterTwo.collection.data);
+console.log(sorterTwo.data);
